@@ -1,0 +1,24 @@
+2018-06-04 13:35:13 u62587205 0EPjOw-1gQ4jD287W-010Oi0 |< REMOTE=96.57.161.90 SCRIPT=/bat/rd-mailform.php -- /usr/sbin/sendmail -t -i
+2018-06-04 13:35:13 u62587205 0EPjOw-1gQ4jD287W-010Oi0 WW invalid sender address: " \"pyrockmusicschool.com\" <74.208.180.57>"
+2018-06-04 13:35:13 u62587205 0EPjOw-1gQ4jD287W-010Oi0 <= S=cgi-mailer-bounces-361533948@perfora.net SZ=16438 D=0 SID=361533948
+2018-06-04 13:35:13 u62587205 0EPjOw-1gQ4jD287W-010Oi0 => williamspyrock@gmail.com msmtp.perfora.net[172.19.143.3] 250 Requested mail action okay, completed: id=0Lhu9U-1g481b2Dpq-00n7zN
+2018-06-04 13:36:07 u62587205 0DxV7M-1fS5GB2sY4-002CfN |< REMOTE=96.57.161.90 SCRIPT=/bat/rd-mailform.php -- /usr/sbin/sendmail -t -i
+2018-06-04 13:36:07 u62587205 0DxV7M-1fS5GB2sY4-002CfN WW invalid sender address: " \"pyrockmusicschool.com\" <74.208.180.57>"
+2018-06-04 13:36:07 u62587205 0DxV7M-1fS5GB2sY4-002CfN <= S=cgi-mailer-bounces-361533948@perfora.net SZ=16114 D=0 SID=361533948
+2018-06-04 13:36:07 u62587205 0DxV7M-1fS5GB2sY4-002CfN => williamspyrock@gmail.com msmtp.perfora.net[172.19.143.3] 250 Requested mail action okay, completed: id=0M5wXn-1gEG4M2xb7-00xstz
+2018-06-04 17:10:44 u62587205 0DzA4k-1fQUiM1Uu2-000fj4 |< REMOTE=50.226.140.242 SCRIPT=/bat/rd-mailform.php -- /usr/sbin/sendmail -t -i
+2018-06-04 17:10:44 u62587205 0DzA4k-1fQUiM1Uu2-000fj4 WW invalid sender address: " \"pyrockmusicschool.com\" <74.208.180.57>"
+2018-06-04 17:10:44 u62587205 0DzA4k-1fQUiM1Uu2-000fj4 <= S=cgi-mailer-bounces-361533948@perfora.net SZ=16260 D=0 SID=361533948
+2018-06-04 17:10:44 u62587205 0DzA4k-1fQUiM1Uu2-000fj4 => williamspyrock@gmail.com msmtp.perfora.net[172.19.143.3] 250 Requested mail action okay, completed: id=0LmtMA-1fvif21ajk-00h8WO
+2018-06-04 17:10:47 u62587205 0EL4Ar-1gD73S0gkH-00yxM5 |< REMOTE=50.226.140.242 SCRIPT=/bat/rd-mailform.php -- /usr/sbin/sendmail -t -i
+2018-06-04 17:10:47 u62587205 0EL4Ar-1gD73S0gkH-00yxM5 WW invalid sender address: " \"pyrockmusicschool.com\" <74.208.180.57>"
+2018-06-04 17:10:47 u62587205 0EL4Ar-1gD73S0gkH-00yxM5 <= S=cgi-mailer-bounces-361533948@perfora.net SZ=16260 D=0 SID=361533948
+2018-06-04 17:10:47 u62587205 0EL4Ar-1gD73S0gkH-00yxM5 => williamspyrock@gmail.com msmtp.perfora.net[172.19.143.3] 250 Requested mail action okay, completed: id=0MIOgz-1fRJf60mgZ-0048x1
+2018-06-05 12:12:47 u62587205 0ERNpI-1gOcgN0hsa-010urP |< REMOTE=67.87.151.156 SCRIPT=/bat/rd-mailform.php -- /usr/sbin/sendmail -t -i
+2018-06-05 12:12:47 u62587205 0ERNpI-1gOcgN0hsa-010urP WW invalid sender address: " \"pyrockmusicschool.com\" <74.208.180.57>"
+2018-06-05 12:12:47 u62587205 0ERNpI-1gOcgN0hsa-010urP <= S=cgi-mailer-bounces-361533948@perfora.net SZ=16059 D=0 SID=361533948
+2018-06-05 12:12:47 u62587205 0ERNpI-1gOcgN0hsa-010urP => williamspyrock@gmail.com msmtp.perfora.net[172.19.143.3] 250 Requested mail action okay, completed: id=0MdMcX-1fhcpo0p63-00IQkw
+2018-06-08 01:49:48 u62587205 0Dh4jA-1fhjBw481E-00KvDw |< REMOTE=67.87.151.156 SCRIPT=/bat/rd-mailform.php -- /usr/sbin/sendmail -t -i
+2018-06-08 01:49:48 u62587205 0Dh4jA-1fhjBw481E-00KvDw WW invalid sender address: " \"pyrockmusicschool.com\" <74.208.180.57>"
+2018-06-08 01:49:48 u62587205 0Dh4jA-1fhjBw481E-00KvDw <= S=cgi-mailer-bounces-361533948@perfora.net SZ=16053 D=0 SID=361533948
+2018-06-08 01:49:49 u62587205 0Dh4jA-1fhjBw481E-00KvDw => williamspyrock@gmail.com msmtp.perfora.net[172.19.143.3] 250 Requested mail action okay, completed: id=0MLPtc-1fQcJj02KY-000ZyO

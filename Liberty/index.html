@@ -1,0 +1,354 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/booking.css"/>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+
+  <!--[if lt IE 9]>
+  <html class="lt-ie9">
+  <div style=' clear: both; text-align:center; position: relative;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+    </a>
+  </div>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <script src='js/device.min.js'></script>
+</head>
+
+<body>
+<div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  <header>
+    <div class="container vide_content">
+      <div class="brand">
+        <h1 class="brand_name">
+          <a href="./">
+            <strong class="primary">Liberty</strong> Institute
+          </a>
+        </h1>
+        <p class="brand_slogan">
+          English Classes
+        </p>
+      </div>
+
+      <h2>Ingles, Ciudadania y Computacion</h2>
+
+      <h3>25$ por semana. Punto. Los cursos se llenan rapido. Llena con tus datos y te reservamos tu lugar </h3>
+
+      <div class="row">
+        <div class="grid_4 preffix_8 bg-image1">
+          <form id="bookingForm" class="booking-form">
+            <div class="tmInput">
+              <input name="Name" placeHolder="Full name" type="text"
+                     data-constraints='@NotEmpty @Required @AlphaSpecial'>
+            </div>
+            <div class="tmInput">
+              <input name="Email" placeHolder="E-mail " type="text" data-constraints="@NotEmpty @Required @Email">
+            </div>
+            <div class="tmInput">
+              <input name="Phone" placeHolder="Phone" type="text" data-constraints="@NotEmpty @Required @Phone">
+            </div>
+            <div class="booking-form_controls">
+              <a href="#" class="btn" data-type="submit">Get Started Now!</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+  <main>
+    <section class="well bg-primary">
+      <div class="container center  center">
+        <h2>El siguiente grupo empieza en </h2>
+
+        <div class="countdown secondary"></div>
+
+        <p>
+          <em>
+            Liberty Institute ofrece el mejor precio del mercado para clases de ingles, con profesores altamente calificados y personales de atencion al cliente excelentes.
+            
+             Todo esto asegurara que tu experiencia en nuestro instituto sea impecable.  
+            
+          </em>
+        </p>
+      </div>
+    </section>
+
+    <section class="well2">
+      <div class="container center">
+        <div class="row">
+          <div class="grid_3">
+            <div class="flaticon-map103"></div>
+            <h3>Elizabeth</h3>
+
+            <p>El instituto esta convenientemente localizado en el centro de la ciudad de Elizabeth, cerca de restaurantes y negocios con varios estacionamientos publicos de facil acceso. Zona segura a 2 cuadras de la estacion de tren de Elizabeth.</p>
+          </div>
+          <div class="grid_3">
+            <div class="flaticon-connection21"></div>
+            <h3>Horarios</h3>
+
+            <p>Contamos con los horarios mas convenientes para que usted pueda organizar otras areas de su vida como trabajo, familia, amigos y luego asistir a clases y aprender el idioma que cambiara su vida.</p>
+          </div>
+          <div class="grid_3">
+            <div class="flaticon-voice32"></div>
+            <h3>Audio y Video</h3>
+
+            <p>Contamos con tecnologia de punta en audio y video para hacer tus clases mas dinamicas y entretenidas.</p>
+          </div>
+          <div class="grid_3">
+            <div class="flaticon-users25"></div>
+            <h3>12 asientos</h3>
+
+            <p>Cada aula tiene solo un limite de 12 estudiantes, lo cual asegura una atencion personalizada del profesor. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-darken">
+      <div class="container well well__ins1 bg-image2">
+        <h2 class="center">About Us</h2>
+
+        <div class="row">
+          <div class="grid_6 preffix_6">
+            <h3 class="primary wow fadeInRight" data-wow-delay="0.2s">Liberty es un instituto que trabaja en forma conjunta con PY ROCK, escuela de musica prestigiosa de Elizabeth NJ. Nacio con la idea de ayudar a la comunidad con la necesidad de hablar el idioma ingles para lograr exitos en el trabajo.  
+                                Contamos con el mejor precio del mercado para estudiar ingles debido a que nuestro enfoque es a ayudar. </h3>
+
+            <p class="wow fadeInRight" data-wow-delay="0.4s">Todos los profesores son certificados para enseñar el idioma y pasan por un entrenamiento riguroso donde el objetivo numero uno es dar a los estudiantes la formula para aprender ingles de la manera mas dinamica, rapida y eficaz. 
+               
+               .</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="well3">
+      <div class="container">
+        <div class="row">
+          <div class="grid_4">
+            <ul class='marked-list'>
+              <li>
+                <a href='#'>Aprende Ingles </a>
+              </li>
+              <li>
+                <a href='#'>Conoce nuevos amigos</a>
+              </li>
+              <li>
+                <a href='#'>Pasa un buen momento</a>
+              </li>
+              <li>
+                <a href='#'>Recibe un trato impecable</a>
+              </li>
+              <li>
+                <a href='#'>Flexibilidad de horarios</a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid_4">
+            <ul class='marked-list'>
+              <li>
+                <a href='#'>Mejor precio del mercado</a>
+              </li>
+              <li>
+                <a href='#'>Tecnologia de punta</a>
+              </li>
+              <li>
+                <a href='#'>Amplia sala de espera</a>
+              </li>
+              <li>
+                <a href='#'>Salas recien remodeladas</a>
+              </li>
+              <li>
+                <a href='#'>Tenga Exito</a>
+              </li>
+            </ul>
+          </div>
+          <div class="grid_4">
+            <ul class='marked-list'>
+              <li>
+                <a href='#'>Elit sed do eiusmod tempor</a>
+              </li>
+              <li>
+                <a href='#'>Incididunt ut labore</a>
+              </li>
+              <li>
+                <a href='#'>Et dolore magna aliqua</a>
+              </li>
+              <li>
+                <a href='#'>Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href='#'>Conse ctetur adipisicing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parallax parallax1">
+      <div class="container center">
+        <h2 class="primary">Subscribete</h2>
+
+        <h3>
+          Cada semana enviamos tips para poder utilizar todo lo aprendido en tu lugar de trabajo, con amigos y con la familia.
+        </h3>
+
+        <form id="subscribe-form" class="subscribe-form">
+          <label class="email">
+            <input type="email" value="Enter your email">
+            <span class="error">*Invalid email.</span>
+            <span class="success">Your subscription request has been sent!</span>
+          </label>
+          <a class="btn2" data-type="submit" href="#">Subscribe</a>
+        </form>
+      </div>
+    </section>
+
+    <section class="well2 well2__ins1">
+      <div class="container">
+        <h2 class="center">Preguntas</h2>
+
+        <div class="row">
+          <div class="grid_6">
+            <div class="box">
+              <div class="box_aside"><div class="flaticon-help19"></div></div>
+              <div class="box_cnt">
+                <h4 data-equal-group="2">Como son los pagos </h4>
+
+                <p>Los pagos son semanales, el primer dia de la semana usted paga solo por la semana que va a asistir. 
+                   Tenemos descuentos cuando los pagos se hacen de forma mensual. </p>
+              </div>
+            </div>
+          </div>
+          <div class="grid_6">
+            <div class="box">
+              <div class="box_aside"><div class="flaticon-help19"></div></div>
+              <div class="box_cnt">
+                <h4 data-equal-group="2">Cuantos niveles ofrecen</h4>
+
+                <p> El instituto ofrece 6 niveles, donde el objetivo es que el estudiante este preparado para poder afrontar los desafios en el trabajo, escuela de los chicos y interacciones cotidianas. 
+                   Muchos de nuestros estudiantes estan felices de terminar solo algunos niveles y gozar de entendimiento susficiente para sus objetivos. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="grid_6">
+            <div class="box">
+              <div class="box_aside"><div class="flaticon-help19"></div></div>
+              <div class="box_cnt">
+                <h4 data-equal-group="2">Que libros utilizan</h4>
+
+                <p>El instituto es certificado y tiene todos los permisos para utilizar el sistema de aprendizaje de Ingles de la Universidad de Cambridge. 
+                   Dicho sistema es reconocido mundialmente por ser uno de los mas eficacez para estudiantes que recien inician en el idioma.</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid_6">
+            <div class="box">
+              <div class="box_aside"><div class="flaticon-help19"></div></div>
+              <div class="box_cnt">
+                <h4 data-equal-group="2">El instituto ofrece certificados</h4>
+
+                <p>Una ves culminado los programas el instituto emite un certificado el cual el estudiante puede utilizar para motivos personales.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="grid_4">
+            <blockquote data-equal-group="1">
+              <p><q> Este instituto es de la san puta. Cuando llegue no sabia nada ahora reviento con el ingles. </q></p>
+              <div class="box">
+                <div class="box_aside"><img src="images/page-1_img04.jpg" alt=""/></div>
+                <div class="box_cnt">
+                  <h4><cite>Elvin Reyes</cite></h4>
+
+                  <p>Estudiante desde el 2015</p>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="grid_4">
+            <blockquote data-equal-group="1">
+              <p><q>Espectacular, no tengo palabras para describir la alegria que siento.</q></p>
+              <div class="box">
+                <div class="box_aside"><img src="images/page-1_img05.jpg" alt=""/></div>
+                <div class="box_cnt">
+                  <h4><cite>Dorali Ortega</cite></h4>
+
+                  <p>Estudiante desde el 2016</p>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="grid_4">
+            <blockquote data-equal-group="1">
+              <p><q> El tema es que hay que estudiar boludo, si vos estudiar todo es la masa. </q></p>
+              <div class="box">
+                <div class="box_aside"><img src="images/page-1_img06.jpg" alt=""/></div>
+                <div class="box_cnt">
+                  <h4><cite>Williams Ocampos</cite></h4>
+
+                  <p>Estudiante desde el 1977</p>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <footer>
+    <div class="container wow fadeInUp" data-wow-delay="0.2s">
+      <h2>Clases de Ingles, Ciudadania y Computacion</h2>
+
+      <h3 class="primary">La opcion mas economica con clases de alta calidad..</h3>
+      <a class="btn" href='#'>Get Started Now!</a>
+    </div>
+
+    <div class="container">
+      <div class="brand">
+        <h1 class="brand_name">
+          <a href="./">
+            <strong class="primary">Liberty</strong> Institute
+          </a>
+        </h1>
+      </div>
+
+      <div class="copyright">
+        © <span id="copyright-year"></span>. All Rights Reserved
+        <!-- {%FOOTER_LINK} -->
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="js/script.js"></script>
+<!-- coded by Diversant -->
+</body>
+</html>
